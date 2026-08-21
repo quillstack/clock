@@ -1,0 +1,44 @@
+{
+    "name": "quillstack/clock",
+    "description": "A clock based on PSR-20: Clock, with one which stands still for tests.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "clock",
+        "time",
+        "psr",
+        "psr-20",
+        "php8"
+    ],
+    "homepage": "https://quillstack.org/clock",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "radek@quillstack.org"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "psr/clock": "^1.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "quillstack/unit-tests": "^0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quillstack\\Clock\\": "src/",
+            "Quillstack\\Clock\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "unit-tests",
+        "test:coverage": "phpdbg -qrr ./vendor/bin/unit-tests",
+        "stan": "phpstan analyse"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.5.x-dev"
+        }
+    }
+}

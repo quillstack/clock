@@ -1,6 +1,11 @@
 # Quillstack Clock
 
 [![Tests](https://github.com/quillstack/clock/actions/workflows/tests.yml/badge.svg)](https://github.com/quillstack/clock/actions/workflows/tests.yml)
+[![Latest Version](https://img.shields.io/packagist/v/quillstack/clock.svg)](https://packagist.org/packages/quillstack/clock)
+[![Downloads](https://img.shields.io/packagist/dt/quillstack/clock.svg)](https://packagist.org/packages/quillstack/clock)
+[![PHP Version](https://img.shields.io/packagist/php-v/quillstack/clock)](https://packagist.org/packages/quillstack/clock)
+[![StyleCI](https://github.styleci.io/repos/1342207629/shield?branch=main)](https://github.styleci.io/repos/1342207629?branch=main)
+[![License](https://img.shields.io/packagist/l/quillstack/clock)](https://github.com/quillstack/clock/blob/main/LICENSE)
 
 A clock based on PSR-20: Clock, with one which stands still for tests.
 

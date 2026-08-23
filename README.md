@@ -6,6 +6,11 @@
 [![PHP Version](https://img.shields.io/packagist/php-v/quillstack/clock)](https://packagist.org/packages/quillstack/clock)
 [![StyleCI](https://github.styleci.io/repos/1342207629/shield?branch=main)](https://github.styleci.io/repos/1342207629?branch=main)
 [![CodeFactor](https://www.codefactor.io/repository/github/quillstack/clock/badge)](https://www.codefactor.io/repository/github/quillstack/clock)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=quillstack_clock&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=quillstack_clock)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quillstack_clock&metric=coverage)](https://sonarcloud.io/summary/new_code?id=quillstack_clock)
+[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_clock&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_clock)
+[![Reliability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_clock&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_clock)
+[![Security](https://sonarcloud.io/api/project_badges/measure?project=quillstack_clock&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_clock)
 [![License](https://img.shields.io/packagist/l/quillstack/clock)](https://github.com/quillstack/clock/blob/main/LICENSE)
 
 A clock based on PSR-20: Clock, with one which stands still for tests.

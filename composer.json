@@ -10,7 +10,7 @@
         "psr-20",
         "php8"
     ],
-    "homepage": "https://quillstack.org/clock",
+    "homepage": "https://quillstack.org/packages/clock",
     "authors": [
         {
             "name": "Radek Ziemniewicz",
